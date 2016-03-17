@@ -1,0 +1,13 @@
+atom/storage
+npm-debug.log
+atom/.node-gyp
+atom/packages
+atom/.apm
+atom/blob-store
+atom/compile-cache
+atom/git-time-machine
+atom/local-history
+atom/storage
+init.coffee
+projects.cson
+terminal-commands.json

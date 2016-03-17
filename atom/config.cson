@@ -1,0 +1,113 @@
+"*":
+  "atom-alignment": {}
+  "atom-beautify":
+    _analyticsUserId: "34f8e891-a970-4360-8988-087c450dc0ba"
+  "atom-typescript": {}
+  "autocomplete-plus": {}
+  core:
+    audioBeep: false
+    disabledPackages: [
+      "close-on-left"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/ra/git"
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    invisibles: {}
+    lineHeight: 1.2
+    preferredLineLength: 120
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "9f5d0893-0d02-2538-51a4-f6b5963bf339"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  "fuzzy-finder": {}
+  "git-diff": {}
+  "git-plus":
+    openInPane: false
+    splitPane: "Down"
+  "js-hyperclick": {}
+  jshint:
+    supportLintingJsx: true
+  jumpy:
+    fontSize: 0.9
+    highContrast: true
+  linter:
+    errorPanelHeight: 28
+    showErrorInline: false
+  "linter-markdownlint":
+    executablePath: "/usr/local/bin/mdl"
+  "linter-tslint": {}
+  "markdown-preview": {}
+  minimap: {}
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-arcanist": {}
+    "nuclide-buck-files": {}
+    "nuclide-clang-atom": {}
+    "nuclide-datatip": {}
+    "nuclide-debugger-hhvm": {}
+    "nuclide-diagnostics-store":
+      legacyLintOnTheFly: true
+    "nuclide-file-tree":
+      revealFileOnSwitch: true
+    "nuclide-flow":
+      diagnosticsOnFly: true
+      enableStructuredTypeHints: true
+    "nuclide-format-js":
+      reprint: true
+    "nuclide-hack": {}
+    "nuclide-health": {}
+    "nuclide-home":
+      showHome: false
+    "nuclide-objc":
+      enableAutomaticSquareBracketInsertion: true
+    "nuclide-ocaml": {}
+    "nuclide-output": {}
+  "one-light-ui":
+    layoutMode: "Spacious"
+  "open-recent":
+    listDirectoriesAddedToProject: true
+  react:
+    enabledForAllJavascriptFiles: true
+  "save-session":
+    dataSaveFolder: "/Users/ra/.atom/packages/save-session/projects"
+  "tool-bar":
+    visible: false
+  "travis-ci-status": {}
+  "tree-view":
+    hideIgnoredNames: true
+    squashDirectoryNames: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+    wrapLeftRightMotion: true
+  welcome:
+    showOnStartup: false
+".coffee.jsx.source":
+  editor:
+    autoIndentOnPaste: true
+    preferredLineLength: 100
+".diff.source":
+  editor:
+    preferredLineLength: 120
+".ini.source":
+  editor:
+    preferredLineLength: 100
+    softWrap: false
+".js.jsx.source":
+  editor:
+    preferredLineLength: 100
+".source.ts":
+  editor:
+    preferredLineLength: 120
+".source.tsx":
+  editor:
+    preferredLineLength: 120
