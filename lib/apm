@@ -73,8 +73,6 @@ aix linter-tslint
 aix local-history
 aix merge-conflicts
 aix minimap
-aix monokaix-tweaked-syntax
-aix monokaix-tweaked-ui
 aix native-ui
 aix navigation-history
 aix open-recent
