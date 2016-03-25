@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Update repositories
+sudo apt-get update
+
+# Upgrade existing packages
+sudo apt-get dist-upgrade

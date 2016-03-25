@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function bci() {
+  pkg="$1"
+  if ! brew cask list -1 | grep -q "^${pkg}\$"; then
+    brew cask install "$@"
+  fi
+}
+
+bci atom
+
+unset -f bci
