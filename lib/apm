@@ -21,11 +21,8 @@ function aix() {
 }
 
 aix Sublime-Style-Column-Selection
-aix actual-solarized-syntax
 aix atom-alignment
 aix atom-beautify
-aix atom-solarized-dark-ui
-aix atom-typescript
 aix auto-detect-indentation
 aix block-comment-lines
 aix change-case
@@ -43,7 +40,6 @@ aix find-selection
 aix git-blame
 aix git-plus
 aix git-time-machine
-aix haskell-grammar
 aix hex
 aix highlight-selected
 aix js-autoimport
@@ -53,9 +49,7 @@ aix jsonlint
 aix jumpy
 aix language-awk
 aix language-dots
-aix language-fish-shell
 aix language-ini
-aix language-javascript-jsx
 aix language-js-specs
 aix language-swift
 aix language-tmux
@@ -69,7 +63,6 @@ aix linter-jshint
 aix linter-markdownlint
 aix linter-package-json-validator
 aix linter-scspell
-aix linter-tslint
 aix local-history
 aix merge-conflicts
 aix minimap
@@ -84,11 +77,6 @@ aix react-es6-snippets
 aix refactor
 aix save-session
 aix set-syntax
-aix solarized-dark-ui
-aix solarized-light-syntax-modified
-aix solarized-light-ui
-aix solarized-one-dark-syntax
-aix solarized-one-light-ui
 aix sort-lines
 aix source-preview-react
 aix symbols-tree-view
