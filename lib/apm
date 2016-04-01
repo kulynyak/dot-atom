@@ -6,6 +6,8 @@
 
 ##############################################################################
 
+easy_install scspell
+
 function bci() {
   pkg="$1"
   if ! brew cask list -1 | grep -q "^${pkg}\$"; then

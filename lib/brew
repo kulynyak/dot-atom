@@ -8,5 +8,5 @@ function bci() {
 }
 
 bci atom
-
+easy_install scspell
 unset -f bci
