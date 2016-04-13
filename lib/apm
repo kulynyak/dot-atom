@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # To obtain fresh list
-# apm list --installed --bare | sed 's/@.*$//'
+# apm list --installed --bare | sed 's/@.*$//' | sed 's/^/aix /'
 #
 
 ##############################################################################
@@ -23,72 +23,33 @@ function aix() {
 }
 
 aix Sublime-Style-Column-Selection
-aix atom-alignment
 aix atom-beautify
-aix auto-detect-indentation
 aix block-comment-lines
 aix change-case
-aix chary-tree-view
-aix chocula-syntax
-aix close-on-left
-aix color-picker
-aix default-language
-aix delete-lines
-aix docblockr
-aix dracula-theme
-aix editorconfig
 aix file-icons
 aix find-selection
-aix git-blame
 aix git-plus
-aix git-time-machine
+aix haskell-grammar
 aix hex
 aix highlight-selected
-aix js-autoimport
-aix js-refactor
-aix jscs-fixer
-aix jsonlint
 aix jumpy
-aix language-awk
-aix language-dots
+aix language-babel
+aix language-dotfiles
 aix language-ini
-aix language-js-specs
-aix language-swift
-aix language-tmux
-aix last-cursor-position
+aix language-ocaml
+aix language-thrift
 aix lines
-aix linter
-aix linter-csslint
-aix linter-htmlhint
-aix linter-javac
-aix linter-jshint
-aix linter-markdownlint
-aix linter-package-json-validator
-aix linter-scspell
 aix local-history
 aix merge-conflicts
-aix minimap
-aix native-ui
 aix navigation-history
-aix open-recent
-aix package-list
-aix pigments
+aix nuclide
+aix preview-plus
 aix project-manager
-aix react
-aix react-es6-snippets
-aix refactor
-aix save-session
-aix set-syntax
 aix sort-lines
-aix source-preview-react
 aix symbols-tree-view
 aix tab-close-shift-click
 aix text-pastry
-aix todo-show
-aix tree-view-copy-relative-path
-aix tree-view-git-branch
-aix tree-view-git-status
-
+aix tool-bar
 
 unset -f aix
 unset -f bci
