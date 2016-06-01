@@ -1,113 +1,131 @@
 "*":
-  "atom-alignment": {}
   "atom-beautify":
-    _analyticsUserId: "34f8e891-a970-4360-8988-087c450dc0ba"
-  "atom-typescript": {}
-  "autocomplete-plus": {}
+    coffeescript:
+      indent_size: 2
+      space_before_conditional: false
+    css:
+      indent_size: 2
+      wrap_line_length: 100
+    ejs:
+      break_chained_methods: true
+      indent_size: 2
+      wrap_line_length: 100
+    erb:
+      indent_size: 2
+      wrap_line_length: 100
+    general:
+      _analyticsUserId: "8ea76107-b6f7-4952-a684-e65683432989"
+    html:
+      indent_size: 2
+      wrap_line_length: 100
+    js:
+      indent_size: 2
+      jslint_happy: true
+      max_preserve_newlines: 1
+      wrap_line_length: 100
+    json:
+      indent_size: 2
+      space_before_conditional: false
+    jsx:
+      indent_size: 2
+      space_after_anon_function: true
+      wrap_line_length: 100
+    scss:
+      indent_size: 2
+    tss:
+      indent_size: 2
   core:
-    audioBeep: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
     disabledPackages: [
-      "close-on-left"
+      "language-coffee-script"
+      "linter"
+      "tree-view"
     ]
     openEmptyEditorOnStart: false
-    projectHome: "/Users/ra/git"
     themes: [
-      "atom-light-ui"
-      "atom-light-syntax"
+      "solarized-one-light-ui"
+      "solarized-light-js-syntax"
     ]
   editor:
+    autoIndentOnPaste: false
     backUpBeforeSaving: true
     invisibles: {}
-    lineHeight: 1.2
-    preferredLineLength: 120
+    lineHeight: 1.3
+    preferredLineLength: 100
     scrollPastEnd: true
-    showIndentGuide: true
+    showInvisibles: true
+    softTabs: false
     softWrap: true
     softWrapAtPreferredLineLength: true
   "exception-reporting":
-    userId: "9f5d0893-0d02-2538-51a4-f6b5963bf339"
+    userId: "ed6487ff-6ae1-9818-07b7-847a4a8b2e2c"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
-  "fuzzy-finder": {}
-  "git-diff": {}
-  "git-plus":
-    openInPane: false
-    splitPane: "Down"
-  "js-hyperclick": {}
-  jshint:
-    supportLintingJsx: true
-  jumpy:
-    fontSize: 0.9
-    highContrast: true
-  linter:
-    errorPanelHeight: 28
-    showErrorInline: false
-  "linter-markdownlint":
-    executablePath: "/usr/local/bin/mdl"
-  "linter-tslint": {}
-  "markdown-preview": {}
-  minimap: {}
+  "language-babel":
+    babelMapsAddUrl: false
+    disableWhenNoBabelrcFileInPath: false
+  "merge-conflicts": {}
   nuclide:
     installRecommendedPackages: true
+    "nuclide-adb-logcat": {}
     "nuclide-arcanist": {}
     "nuclide-buck-files": {}
     "nuclide-clang-atom": {}
+    "nuclide-console": {}
     "nuclide-datatip": {}
     "nuclide-debugger-hhvm": {}
-    "nuclide-diagnostics-store":
-      legacyLintOnTheFly: true
+    "nuclide-diff-view":
+      toolbarVisible: true
     "nuclide-file-tree":
+      hideIgnoredNames: false
       revealFileOnSwitch: true
-    "nuclide-flow":
-      diagnosticsOnFly: true
-      enableStructuredTypeHints: true
-    "nuclide-format-js":
-      reprint: true
+    "nuclide-flow": {}
+    "nuclide-format-js": {}
     "nuclide-hack": {}
     "nuclide-health": {}
     "nuclide-home":
       showHome: false
-    "nuclide-objc":
-      enableAutomaticSquareBracketInsertion: true
+    "nuclide-ios-simulator-logs": {}
     "nuclide-ocaml": {}
-    "nuclide-output": {}
-  "one-light-ui":
-    layoutMode: "Spacious"
-  "open-recent":
-    listDirectoriesAddedToProject: true
-  react:
-    enabledForAllJavascriptFiles: true
-  "save-session":
-    dataSaveFolder: "/Users/ra/.atom/packages/save-session/projects"
+    "nuclide-python": {}
+    "nuclide-react-native": {}
+    "nuclide-working-sets": {}
+  "symbols-tree-view":
+    autoHide: true
+    autoToggle: true
   "tool-bar":
+    position: "Right"
     visible: false
-  "travis-ci-status": {}
-  "tree-view":
-    hideIgnoredNames: true
-    squashDirectoryNames: true
-  "vim-mode":
-    useClipboardAsDefaultRegister: true
-    useSmartcaseForSearch: true
-    wrapLeftRightMotion: true
   welcome:
     showOnStartup: false
-".coffee.jsx.source":
-  editor:
-    autoIndentOnPaste: true
-    preferredLineLength: 100
-".diff.source":
-  editor:
-    preferredLineLength: 120
-".ini.source":
+".ansi.text":
   editor:
     preferredLineLength: 100
-    softWrap: false
+".babel.regexp.source":
+  editor:
+    autoIndent: false
+    preferredLineLength: 100
+".hack.html.text":
+  editor:
+    preferredLineLength: 100
+".hackfragment.source":
+  editor:
+    preferredLineLength: 100
+".hg-commit.text":
+  editor:
+    preferredLineLength: 100
 ".js.jsx.source":
   editor:
+    autoIndent: false
     preferredLineLength: 100
-".source.ts":
-  editor:
-    preferredLineLength: 120
-".source.tsx":
-  editor:
-    preferredLineLength: 120

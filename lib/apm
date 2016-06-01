@@ -26,6 +26,7 @@ aix Sublime-Style-Column-Selection
 aix atom-beautify
 aix block-comment-lines
 aix change-case
+aix color-picker
 aix file-icons
 aix find-selection
 aix git-plus
@@ -39,15 +40,21 @@ aix language-ini
 aix language-ocaml
 aix language-thrift
 aix lines
+aix linter
+aix linter-eslint
 aix local-history
 aix merge-conflicts
 aix navigation-history
 aix nuclide
-aix preview-plus
+aix pigments
 aix project-manager
+aix react
+aix solarized-light-js-syntax
+aix solarized-one-light-ui
 aix sort-lines
-aix symbols-tree-view
+aix symbols-plus
 aix tab-close-shift-click
+aix terminal-plus
 aix text-pastry
 aix tool-bar
 
