@@ -1,132 +1,34 @@
 "*":
   "atom-beautify":
-    coffeescript:
-      indent_size: 2
-      space_before_conditional: false
-    css:
-      indent_size: 2
-      wrap_line_length: 100
-    ejs:
-      break_chained_methods: true
-      indent_size: 2
-      wrap_line_length: 100
-    erb:
-      indent_size: 2
-      wrap_line_length: 100
     general:
-      _analyticsUserId: "8ea76107-b6f7-4952-a684-e65683432989"
-    html:
-      indent_size: 2
-      wrap_line_length: 100
-    js:
-      indent_size: 2
-      jslint_happy: true
-      max_preserve_newlines: 1
-      wrap_line_length: 100
-    json:
-      indent_size: 2
-      space_before_conditional: false
-    jsx:
-      indent_size: 2
-      space_after_anon_function: true
-      wrap_line_length: 100
-    scss:
-      indent_size: 2
-    tss:
-      indent_size: 2
+      _analyticsUserId: "e2374b40-4d97-4d85-9b99-2f8814a7f987"
   core:
-    customFileTypes:
-      "source.ini": [
-        ".buckconfig"
-        ".flowconfig"
-      ]
-      "source.json": [
-        ".arcconfig"
-        "BUCK.autodeps"
-      ]
-      "source.python": [
-        "BUCK"
-      ]
-    disabledPackages: [
-      "language-coffee-script"
-      "linter"
-      "tree-view"
-    ]
-    openEmptyEditorOnStart: false
+    telemetryConsent: "no"
     themes: [
-      "solarized-one-light-ui"
-      "solarized-light-js-syntax"
+      "one-light-ui"
+      "one-light-syntax"
     ]
   editor:
-    autoIndentOnPaste: false
-    backUpBeforeSaving: true
-    invisibles: {}
-    lineHeight: 1.3
-    preferredLineLength: 100
-    scrollPastEnd: true
-    showIndentGuide: true
-    showInvisibles: true
-    softTabs: false
+    fontSize: 13
+    preferredLineLength: 120
     softWrap: true
     softWrapAtPreferredLineLength: true
   "exception-reporting":
-    userId: "ed6487ff-6ae1-9818-07b7-847a4a8b2e2c"
-  "file-watcher":
-    promptWhenFileHasChangedOnDisk: false
-  "language-babel":
-    babelMapsAddUrl: false
-    disableWhenNoBabelrcFileInPath: false
-  "merge-conflicts": {}
-  nuclide:
-    installRecommendedPackages: true
-    "nuclide-adb-logcat": {}
-    "nuclide-arcanist": {}
-    "nuclide-buck-files": {}
-    "nuclide-clang-atom": {}
-    "nuclide-console": {}
-    "nuclide-datatip": {}
-    "nuclide-debugger-hhvm": {}
-    "nuclide-diff-view":
-      toolbarVisible: true
-    "nuclide-file-tree":
-      hideIgnoredNames: false
-      revealFileOnSwitch: true
-    "nuclide-flow": {}
-    "nuclide-format-js": {}
-    "nuclide-hack": {}
-    "nuclide-health": {}
-    "nuclide-home":
-      showHome: false
-    "nuclide-ios-simulator-logs": {}
-    "nuclide-ocaml": {}
-    "nuclide-python": {}
-    "nuclide-react-native": {}
-    "nuclide-working-sets": {}
-  "symbols-tree-view":
-    autoHide: true
-    autoToggle: true
-  "tool-bar":
-    position: "Right"
-    visible: false
+    userId: "88207b36-646b-ac4e-187c-6b48581f6dca"
+  "omnisharp-atom":
+    altGotoDefinition: true
+    codeLens: true
+    enhancedHighlighting19: true
+  "project-manager":
+    closeCurrent: true
+    sortBy: "last modified"
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+  "vim-mode-clipboard-plus":
+    useVimModePlus: true
+  "vim-mode-plus":
+    highlightSearch: true
+    useClipboardAsDefaultRegister: true
+    wrapLeftRightMotion: true
   welcome:
     showOnStartup: false
-".ansi.text":
-  editor:
-    preferredLineLength: 100
-".babel.regexp.source":
-  editor:
-    autoIndent: false
-    preferredLineLength: 100
-".hack.html.text":
-  editor:
-    preferredLineLength: 100
-".hackfragment.source":
-  editor:
-    preferredLineLength: 100
-".hg-commit.text":
-  editor:
-    preferredLineLength: 100
-".js.jsx.source":
-  editor:
-    autoIndent: false
-    preferredLineLength: 100
