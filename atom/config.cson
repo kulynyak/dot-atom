@@ -15,6 +15,9 @@
     softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "88207b36-646b-ac4e-187c-6b48581f6dca"
+  "git-plus":
+    general:
+      _analyticsUserId: "a1d12d8d-915c-45ac-a64e-70d94a567dea"
   "omnisharp-atom":
     altGotoDefinition: true
     codeLens: true
